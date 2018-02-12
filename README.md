@@ -13,9 +13,7 @@ Available Resource Types:
 9) aix_nim
 
 
-
-
-1) aix_tunables
+i) aix_tunables
 
 A custom resource type to modify values for attributes in AIX tunables.
 
@@ -62,7 +60,7 @@ A custom resource type to modify values for attributes in AIX tunables.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-2) aix_chdev
+ii) aix_chdev
 
 A custom resource type for changing AIX device attributes.
 
@@ -132,7 +130,7 @@ A custom resource type for changing AIX device attributes.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-3) aix_mkvg
+iii) aix_mkvg
 
 A custom resource type to create Volume Groups in AIX.
 
@@ -183,7 +181,7 @@ A custom resource type to create Volume Groups in AIX.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-4) aix_mklv
+iv) aix_mklv
 
 A custom resource type to create Logical Volumes in AIX.
 
@@ -240,7 +238,7 @@ A custom resource type to create Logical Volumes in AIX.
        }
 -----------------------------------------------------------------------------------------------------------------------------
 
-5) aix_crfs
+v) aix_crfs
 
 A custom resource type to create Filesystems in AIX.
 
@@ -306,7 +304,7 @@ A custom resource type to create Filesystems in AIX.
       }
 -----------------------------------------------------------------------------------------------------------------------------
 
-6) aix_alt_clone
+vi) aix_alt_clone
 
 A custom resource to create alt_disk_copy in AIX.
 
@@ -346,7 +344,7 @@ Available attributes for this resource type are -
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-7) aix_niminit
+vii) aix_niminit
 
 A custom resource to define an AIX system as a NIM client.
 
@@ -380,7 +378,7 @@ Accepted valid for this resource type are -
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-8) aix_nimclient
+viii) aix_nimclient
 
 A custom resource to perform AIX patching.
 
@@ -405,7 +403,7 @@ Available attributes are -
         }
 
 -----------------------------------------------------------------------------------------------------------------------------
-9) aix_nim
+ix) aix_nim
 
 A custom resource type for managing NIM server.
 
