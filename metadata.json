@@ -1,0 +1,28 @@
+{
+  "name": "harihara-aix-sysadmin",
+  "version": "1.0.0",
+  "author": "harihara-ibm",
+  "summary": "Provides custom types and providers for AIX system administration tasks",
+  "license": "Apache-2.0",
+  "source": "https://github.com/harihara-ibm/puppet_aix_sysadmin",
+  "project_page": "https://github.com/harihara-ibm/puppet_aix_sysadmin",
+  "dependencies": [
+    { "name":"puppetlabs/stdlib","version_requirement":">= 4.0.0 < 5.0.0" }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "AIX",
+      "operatingsystemrelease": [
+        "6.1",
+        "7.1"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.0.0 < 5.0.0"
+    }
+  ],
+  "description": "Puppet Module for custom Types and Providers for common AIX system administration tasks."
+}
