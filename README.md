@@ -13,6 +13,8 @@ Available Resource Types:
 9) aix_nim
 
 
+
+
 1) aix_tunables
 
 A custom resource type to modify values for attributes in AIX tunables.
